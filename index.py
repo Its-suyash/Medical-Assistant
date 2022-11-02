@@ -16,11 +16,11 @@ hide_streamlit_style = """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 # loading the saved models
-diabetes_model = pickle.load(open('C:/Users/suyas/OneDrive/Desktop/Multiple/models/diabetes_model.sav', 'rb'))
+diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
 
-heart_disease_model = pickle.load(open('C:/Users/suyas/OneDrive/Desktop/Multiple/models/heart_disease_model.sav','rb'))
+heart_disease_model = pickle.load(open('heart_disease_model.sav','rb'))
 
-parkinsons_model = pickle.load(open('C:/Users/suyas/OneDrive/Desktop/Multiple/models/parkinsons_model.sav', 'rb'))
+parkinsons_model = pickle.load(open('parkinsons_model.sav', 'rb'))
 
 
 # sidebar for navigation
