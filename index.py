@@ -110,6 +110,7 @@ if (selected=="Symtom to disease"):
         a[17]=st.checkbox('cold_hands_and_feets')
         a[18]=st.checkbox('mood_swings')
         a[19]=st.checkbox('weight_loss')
+        a[90]=st.checkbox('foul_smell_of urine')
         
     with col2:
         a[24]=st.checkbox('cough')
@@ -181,7 +182,7 @@ if (selected=="Symtom to disease"):
         a[87]=st.checkbox('weakness_of_one_body_side')
         a[88]=st.checkbox('loss_of_smell')
         a[89]=st.checkbox('bladder_discomfort')
-        a[90]=st.checkbox('foul_smell_of urine')
+        
         
     with col5:
         a[91]=st.checkbox('continuous_feel_of_urine')
