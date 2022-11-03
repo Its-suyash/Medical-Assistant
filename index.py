@@ -88,7 +88,7 @@ if (selected == 'Kideny'):
 if (selected=="Symtom to disease"):
     a=[0]*132
  
-    col1, col2, col3, col4, col5 = st.columns(5,gap="Large")
+    col1, col2, col3, col4, col5 = st.columns(5)
     with col1:
         a[0]=st.checkbox('itching')
         a[1]=st.checkbox('skin_rash')
